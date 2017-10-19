@@ -1,17 +1,17 @@
-#Ubuntu Shadowsocks Privoxy 客户端配置
+# Ubuntu Shadowsocks Privoxy 客户端配置
 
 干啥的不说了,ubuntu下Shadowsocks不能正常使用,需通过Privoxy中转
  
-##安装Privoxy
+## 安装Privoxy
 
 (python-pip python-m2crypto用来安装shadowsocks)
  
 $ sudo apt-get update  
 $ sudo apt-get install python-pip python-m2crypto privoxy  
-##安装 shadowsocks
+## 安装 shadowsocks
 $ sudo pip install shadowsocks  
 
-##配置shadowsocks
+## 配置shadowsocks
 
 $ sudo mkdir -p /etc/shadowsocks  
 $ sudo vi /etc/shadowsocks/config.json  
@@ -32,7 +32,7 @@ $ sudo vi /etc/shadowsocks/config.json
   
 }  
  
-##配置privoxy
+## 配置privoxy
 
 $ sudo vi /etc/privoxy/config  
  
@@ -40,16 +40,16 @@ $ sudo vi /etc/privoxy/config
 listen-address 192.168.1.120:8118 
 forward-socks5 / 127.0.0.1:1080 .  
 
-##启动 shadowsocks
+## 启动 shadowsocks
 
 sslocal -c /etc/shadowsocks/config.json  
  
-##启动privoxy,修改后重启服务
+## 启动privoxy,修改后重启服务
 
 sudo service privoxy start
 sudo service privoxy restart  
  
-##配置系统proxy
+## 配置系统proxy
 
 vi /etc/profile  
  
