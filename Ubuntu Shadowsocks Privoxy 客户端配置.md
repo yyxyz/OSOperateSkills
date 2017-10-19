@@ -37,7 +37,8 @@ $ sudo vi /etc/shadowsocks/config.json
 $ sudo vi /etc/privoxy/config  
  
 最后追加
-listen-address 192.168.1.120:8118 
+
+listen-address 192.168.1.120:8118\
 forward-socks5 / 127.0.0.1:1080 .  
 
 ## 启动 shadowsocks
@@ -46,7 +47,7 @@ sslocal -c /etc/shadowsocks/config.json
  
 ## 启动privoxy,修改后重启服务
 
-sudo service privoxy start
+sudo service privoxy start\
 sudo service privoxy restart  
  
 ## 配置系统proxy
