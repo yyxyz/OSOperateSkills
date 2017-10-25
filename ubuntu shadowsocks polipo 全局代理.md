@@ -70,12 +70,48 @@ serverSlots1 = 32
 ```
 sudo /etc/init.d/polipo restart
 ```
+## 验证以及使用
 polipo默认是运行在8123端口的，sslocal运行shadowsocks后，我们可以通过以下方式测试 shadowsocks是否连接成功
 ```
-export http_proxy="http://127.0.0.1:8123/"
-curl  ifconfig.me
+export http_proxy="http://127.0.0.1:8123/" curl ifconfig.me
 ```
 如果返回正常的话，应该是可以看到shadowsocks服务器ip的
+
+## 设置别名
+
+bash中有一个很好的东西，就是别名alias. Linux用户修改~/.bashrc，Mac用户修改~/.bash_profile文件，增加如下设置
+
+```
+alias hp="http_proxy=http://localhost:8123"
+```
+然后Linux用户执行source ~/.bashrc，Mac用户执行source ~/.bash_profile
+
+测试使用
+```
+20:39:39-androidyue~$ curl ip.gs
+当前 IP：125.39.112.14 来自：中国天津天津 联通
+20:39:44-androidyue~$ hp curl ip.gs
+当前 IP：210.140.193.128 来自：日本日本 
+20:39:48-androidyue~$ 
+```
+
+## 当前会话全局设置
+
+如果嫌每次为每一个命令设置代理比较麻烦，可以为当前会话设置全局的代理。即使用
+`export http_proxy=http://localhost:8123` 即可。 如果想撤销当前会话的http_proxy代理，使用 `unset http_proxy` 即可。 示例效果如下
+
+```
+21:29:49-androidyue~$ curl ip.gs
+当前 IP：125.39.112.14 来自：中国天津天津 联通
+21:29:52-androidyue~$ export http_proxy=http://localhost:8123
+21:30:07-androidyue~$ curl ip.gs
+当前 IP：210.140.193.128 来自：日本日本 
+21:30:12-androidyue~$ unset http_proxy
+21:30:37-androidyue~$ curl ip.gs
+当前 IP：125.39.112.14 来自：中国天津天津 联通
+```
+如果想要更长久的设置代理，可以将
+`export http_proxy=http://localhost:8123` 加入.bashrc或者.bash_profile文件
 
 ## 设置全局代理
 
