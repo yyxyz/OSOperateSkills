@@ -15,11 +15,11 @@
 
 为了使您更好地学习，我们建议您登录「简书」，将您的编辑器切换至 Markdown 编辑器，新建一篇空白笔记，然后点击右上角的预览模式：
 
-![](https://github.com/yyxyz/OSOperateSkills/tree/master/Markdown/resource/1.jpg)
+![](https://github.com/yyxyz/OSOperateSkills/blob/master/Markdown/resource/1.jpg)
 
 此时，您的界面应当如下图所示，左侧为编辑区域，右侧为预览区域，您在左侧输入 Markdown 语法的文本，右侧会立即帮您呈现最终结果，好了，让我们开始学习吧~
 
-![](https://github.com/yyxyz/OSOperateSkills/tree/master/Markdown/resource/2.jpg)
+![](https://github.com/yyxyz/OSOperateSkills/blob/master/Markdown/resource/2.jpg)
 
 ## 标题
 
@@ -38,7 +38,7 @@
 
 你可以你的编辑器中尝试输入这六级标题，可以参考下方的截图：
 
-![](https://github.com/yyxyz/OSOperateSkills/tree/master/Markdown/resource/3.jpg)
+![](https://github.com/yyxyz/OSOperateSkills/blob/master/Markdown/resource/3.jpg)
 一级标题至六级标题
 
 ## 列表
@@ -59,7 +59,7 @@
 注：`-`、`1`.和文本之间要保留一个字符的空格。
 
 列表案例截图如下：
-![](https://github.com/yyxyz/OSOperateSkills/tree/master/Markdown/resource/4.jpg)
+![](https://github.com/yyxyz/OSOperateSkills/blob/master/Markdown/resource/4.jpg)
 
 ## 链接和图片
 
@@ -74,7 +74,7 @@
 注：插入图片的语法和链接的语法很像，只是前面多了一个 `！`。
 
 插入链接和图片的案例截图：
-![](https://github.com/yyxyz/OSOperateSkills/tree/master/Markdown/resource/5.jpg)
+![](https://github.com/yyxyz/OSOperateSkills/blob/master/Markdown/resource/5.jpg)
 
 ## 引用
 
@@ -90,7 +90,7 @@
 
 引用的案例截图：
 
-![](https://github.com/yyxyz/OSOperateSkills/tree/master/Markdown/resource/6.jpg)
+![](https://github.com/yyxyz/OSOperateSkills/blob/master/Markdown/resource/6.jpg)
 
 ## 粗体和斜体
 
@@ -105,14 +105,14 @@ Markdown 的粗体和斜体也非常简单，用两个 `*` 包含一段文本就
 *一盏灯*， **一片昏黄**；一简书， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 保持淡定， 才能欣赏到最美丽的风景！ 保持淡定， 人生从此不再寂寞。
 
 粗体和斜体的案例截图：
-![](https://github.com/yyxyz/OSOperateSkills/tree/master/Markdown/resource/7.jpg)
+![](https://github.com/yyxyz/OSOperateSkills/blob/master/Markdown/resource/7.jpg)
 
 ## 代码引用
 
 需要引用代码时，如果引用的语句只有一段，不分行，可以用 ` 将语句包起来。
 如果引用的语句为多行，可以将 ``` 置于这段代码的首行和末行。
 代码引用的案例截图：
-![](https://github.com/yyxyz/OSOperateSkills/tree/master/Markdown/resource/8.jpg)
+![](https://github.com/yyxyz/OSOperateSkills/blob/master/Markdown/resource/8.jpg)
 
 ## 表格
 
@@ -150,7 +150,7 @@ baz | baz  | baz
 
 显示链接中带括号的图片
 
-![](https://github.com/yyxyz/OSOperateSkills/tree/master/Markdown/resource/9.gif)
+![](https://github.com/yyxyz/OSOperateSkills/blob/master/Markdown/resource/9.gif)
 
 代码如下:
 ```
