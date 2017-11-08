@@ -1,4 +1,4 @@
-# 献给写作者的 Markdown 新手指南
+# [献给写作者的 Markdown 新手指南](http://www.jianshu.com/p/q81RER)
 简书作为一款「写作软件」在诞生之初就支持了 Markdown，Markdown 是一种「电子邮件」风格的「标记语言」，我们强烈推荐所有写作者学习和掌握该语言。为什么？可以参考:
 
 - [『为什么作家应该用 Markdown 保存自己的文稿』](http://www.jianshu.com/p/qqGjLN)
@@ -167,3 +167,5 @@ baz | baz  | baz
 强烈建议您现在就立马用 Markdown 写一篇文章吧，体会一下 Markdown 的优雅之处！
 
 最后，希望我们的指南可以帮助到您，也希望「简书」能够成为您书写 Markdown 的最佳选择。
+
+转载自 [献给写作者的 Markdown 新手指南](http://www.jianshu.com/p/q81RER)
