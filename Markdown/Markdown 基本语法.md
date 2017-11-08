@@ -39,7 +39,7 @@
 你可以你的编辑器中尝试输入这六级标题，可以参考下方的截图：
 
 ![](https://github.com/yyxyz/OSOperateSkills/blob/master/Markdown/resource/3.jpg)
-一级标题至六级标题
+
 
 ## 列表
 
@@ -59,7 +59,7 @@
 注：`-`、`1`.和文本之间要保留一个字符的空格。
 
 列表案例截图如下：
-![](https://github.com/yyxyz/OSOperateSkills/blob/master/Markdown/resource/4.jpg)
+![一级标题至六级标题](https://github.com/yyxyz/OSOperateSkills/blob/master/Markdown/resource/4.jpg)
 
 ## 链接和图片
 
