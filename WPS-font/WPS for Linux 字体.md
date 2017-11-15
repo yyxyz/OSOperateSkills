@@ -1,8 +1,11 @@
 
 # WPS for Linux字体配置（Ubuntu 16.04） 
+
 1、解压
 
-`sudo unzip wps_symbol_fonts.zip -d /usr/share/fonts/wps-office`
+```
+sudo unzip wps_symbol_fonts.zip -d /usr/share/fonts/wps-office
+```
 
 解压完成后再次打开WPS就不会看到以上错误。
 
