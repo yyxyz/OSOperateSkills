@@ -23,6 +23,7 @@
 ## [visual studio code](https://code.visualstudio.com/)
 ## [Git Bash](http://gitforwindows.org/)
 ## [Git SourceTreeSetup](https://www.sourcetreeapp.com/)
+## [sourceTree 添加 ssh key 方法](http://blog.csdn.net/tengdazhang770960436/article/details/54171911)
 
 ## [putty](http://www.putty.org/)
 ## [Finalshell](http://www.hostbuf.com/t/988.html)
