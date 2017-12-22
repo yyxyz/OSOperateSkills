@@ -19,6 +19,10 @@
 
 ## [Free Download Manager](https://www.freedownloadmanager.org/)
 ## [迅雷]()
+## [Pycharm](https://www.jetbrains.com/pycharm/)
+## [visual studio code](https://code.visualstudio.com/)
+## [Git Bash](http://gitforwindows.org/)
+## [Git SourceTreeSetup](https://www.sourcetreeapp.com/)
 
 ## [putty](http://www.putty.org/)
 ## [Finalshell](http://www.hostbuf.com/t/988.html)
