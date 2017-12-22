@@ -1,0 +1,28 @@
+# windows 常用软件以及下载地址
+## [笔记工具 xournal](http://xournal.sourceforge.net/)
+## [火车票抢票工具 12306bypass](http://www.12306bypass.com/)
+## [系统管理 Dsim++](https://www.chuyu.me/zh-Hans/)
+## [资源管理器 Clover]()
+## [Listary](http://www.listary.com/)
+## [视频播放器 MPV](https://mpv.io/installation/)
+## [百度云下载器 PanDownload](https://github.com/cherryljr/PanDownload)
+## [Anaconda3](https://www.anaconda.com/download/)
+## [系统字体优化 MacType](http://www.mactype.net/)
+## [桌面皮肤 Rainmeter](http://rainmeter.cn/cms/)
+## [Android 屏幕投影 ScreenSetup-52]()
+## [局域网 ZeroTier One](https://www.zerotier.com/)
+## [剪切板 Ditto](http://ditto-cp.sourceforge.net/)
+## [Teamviewer](https://www.teamviewer.com/zhCN/)
+## [录屏软件Bandicam]()
+## [ScreenToGif](http://www.screentogif.com/?l=zh_cn)
+## [截图工具 snipaste](https://www.snipaste.com/)
+
+## [Free Download Manager](https://www.freedownloadmanager.org/)
+## [迅雷]()
+
+## [putty](http://www.putty.org/)
+## [Finalshell](http://www.hostbuf.com/t/988.html)
+## [FTP 客户端 WinSCP](https://winscp.net/eng/docs/lang:chs)
+
+## [Windows7 netspeedmonitor](https://netspeedmonitor64.en.softonic.com/?ex=BB-39.2)
+## [Windows7 wizmouse](http://antibody-software.com/web/software/software/wizmouse-makes-your-mouse-wheel-work-on-the-window-under-the-mouse/)
