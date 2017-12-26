@@ -31,7 +31,12 @@
 ### [putty](http://www.putty.org/)
 ### [Finalshell](http://www.hostbuf.com/t/988.html)
 ### [FTP 客户端 WinSCP](https://winscp.net/eng/docs/lang:chs)
+### [U盘启动盘制作工具 Rufus](http://rufus.akeo.ie/?locale=zh_CN)
+### [人工智能图片放大 ](http://bigjpg.com/)
 
 ## Windows 7 软件
 ### [Windows7 netspeedmonitor](https://netspeedmonitor64.en.softonic.com/?ex=BB-39.2)
 ### [Windows7 wizmouse](http://antibody-software.com/web/software/software/wizmouse-makes-your-mouse-wheel-work-on-the-window-under-the-mouse/)
+
+## Chrome 扩展
+### [听音乐 Listen1](https://github.com/listen1/listen1_chrome_extension)
