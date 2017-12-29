@@ -45,7 +45,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceRoot}","D:/cygwin64/usr/include/*"
+                "${workspaceRoot}",
+                "D:/cygwin64/usr/include/*"
             ],
             "defines": [
                 "_DEBUG",
