@@ -38,26 +38,36 @@
  
 最后追加
 ```
-listen-address 192.168.1.120:8118\
+listen-address 127.0.0.1:8118
 forward-socks5 / 127.0.0.1:1080 .  
 ```
 ## 启动 shadowsocks
-
 `sslocal -c /etc/shadowsocks/config.json`  
- 
+或者
+`sudo nohup sslocal -c ~/shadowsocks.conf >/dev/null 2>%1 &`
+
+## 配置生效：
+`systemctl enable /etc/systemd/system/shadowsocks.service`
+
+## 查看进程
+`sudo ps aux |grep sslocal |grep -v "grep"`
 ## 启动privoxy,修改后重启服务
 
 `sudo service privoxy start`
-`sudo service privoxy restart`  
+`sudo service privoxy restart`
+`systemctl restart privoxy`
+`systemctl enable privoxy`  
+`systemctl status privoxy.service`
  
 ## 配置系统proxy
 
 `vi /etc/profile`  
+
 ``` 
-export http_proxy=http://localhost:8118/  
-export https_proxy=http://localhost:8118/  
-export HTTP_PROXY=http://localhost:8118/  
-export HTTPS_PROXY=http://localhost:8118/  
+export http_proxy=http://localhost:8118
+export https_proxy=http://localhost:8118 
+export HTTP_PROXY=http://localhost:8118 
+export HTTPS_PROXY=http://localhost:8118  
 ``` 
 使起效，也可以把这几个命令加入到 `.bashrc` 中，以后就需要每次都设置了
 `source /etc/profile`
