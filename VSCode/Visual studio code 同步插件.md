@@ -1,8 +1,8 @@
 CODE SETTINGS SYNC UPLOAD SUMMARY
 Version: 2.8.7
 --------------------
-GitHub Token: 459aaa6e465eef69a7267153778332aade29e3c8
-GitHub Gist: 5ee2b576f85fd8acc5c587475b55c554
+GitHub Token: 01acc31c5d83732d47a25c2ab0482e0de65690e5
+GitHub Gist: 87e55b8e50a59cd67e3fb0d271b3b9bf
 GitHub Gist Type: Secret
 
 Restarting Visual Studio Code may be required to apply color and file icon theme.
@@ -19,7 +19,7 @@ Extensions Added:
   code-runner v0.8.7
   code-settings-sync v2.8.7
   color-info v0.5.0
-  EditorConfig v0.11.1
+  EditorConfig v0.12.0
   java-debug v0.0.2
   jshint v0.10.15
   MagicPython v1.0.12
@@ -29,6 +29,7 @@ Extensions Added:
   mdmath v2.1.0
   output-colorizer v0.1.2
   path-intellisense v1.4.2
+  PowerShell v1.5.1
   project-manager v0.23.1
   python v0.9.1
   team v1.122.0
