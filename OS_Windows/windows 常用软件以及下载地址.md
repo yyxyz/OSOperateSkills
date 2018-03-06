@@ -39,4 +39,10 @@
 ### [Windows7 wizmouse](http://antibody-software.com/web/software/software/wizmouse-makes-your-mouse-wheel-work-on-the-window-under-the-mouse/)
 
 ## Chrome 扩展
-### [听音乐 Listen1](https://github.com/listen1/listen1_chrome_extension)
+### [听音乐 Listen1](https://github.com/listen1/listen1_chrome_extension
+)
+## [KMS服务器地址](
+https://03k.org/kms.html
+)
+
+
