@@ -34,7 +34,7 @@
 ### [U盘启动盘制作工具 Rufus](http://rufus.akeo.ie/?locale=zh_CN)
 ### [人工智能图片放大 ](http://bigjpg.com/)
 ### [Xshell 和 xftp合集](http://download.csdn.net/download/yyxyz_2012/10179497)
-### [录频软件](https://github.com/MathewSachin/Captura
+### [录频软件](https://github.com/MathewSachin/Captura)
 
 ## Windows 7 软件
 ### [Windows7 netspeedmonitor](https://netspeedmonitor64.en.softonic.com/?ex=BB-39.2)
